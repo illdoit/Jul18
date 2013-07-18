@@ -57,7 +57,7 @@
   //--------------------------------------------------------------------------
 		button3 = [UIButton buttonWithType: UIButtonTypeRoundedRect];
         button3.frame = CGRectMake(200,160, 100, 100);
-        [button3 setBackgroundImage:[UIImage imageNamed:@"ticket-button.png"]
+        [button3 setBackgroundImage:[UIImage imageNamed:@"gigi-button.png"]
                            forState:UIControlStateNormal];
         
 		[button3 addTarget: [UIApplication sharedApplication].delegate
