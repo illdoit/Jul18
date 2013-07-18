@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30CE9761798B242004253F5 /* ticket-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F30CE9751798B242004253F5 /* ticket-button.png */; };
 		F31093141797BED9002C636C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31093131797BED9002C636C /* AVFoundation.framework */; };
 		F35339931795F36E00E7B1E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35339921795F36E00E7B1E5 /* UIKit.framework */; };
 		F35339951795F36E00E7B1E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35339941795F36E00E7B1E5 /* Foundation.framework */; };
@@ -19,7 +20,6 @@
 		F35339A91795F36F00E7B1E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35339A81795F36F00E7B1E5 /* Default-568h@2x.png */; };
 		F35339B11795F39500E7B1E5 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = F35339B01795F39500E7B1E5 /* View.m */; };
 		F35339B31795F61000E7B1E5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35339B21795F61000E7B1E5 /* AudioToolbox.framework */; };
-		F35339B71795FF3800E7B1E5 /* ticket-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F35339B61795FF3800E7B1E5 /* ticket-button.png */; };
 		F35339B91796058800E7B1E5 /* backgroundq.png in Resources */ = {isa = PBXBuildFile; fileRef = F35339B81796058800E7B1E5 /* backgroundq.png */; };
 		F35339BF1796095700E7B1E5 /* hey-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F35339BA1796095600E7B1E5 /* hey-button.png */; };
 		F35339C01796095700E7B1E5 /* hello-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F35339BB1796095600E7B1E5 /* hello-button.png */; };
@@ -40,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F30CE9751798B242004253F5 /* ticket-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ticket-button.png"; sourceTree = "<group>"; };
 		F31093131797BED9002C636C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F353398F1795F36E00E7B1E5 /* Jul18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jul18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35339921795F36E00E7B1E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -57,7 +58,6 @@
 		F35339AF1795F39500E7B1E5 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = ../View.h; sourceTree = "<group>"; };
 		F35339B01795F39500E7B1E5 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View.m; path = ../View.m; sourceTree = "<group>"; };
 		F35339B21795F61000E7B1E5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		F35339B61795FF3800E7B1E5 /* ticket-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ticket-button.png"; path = "../../../BeavButt_HW/Quag/ticket-button.png"; sourceTree = "<group>"; };
 		F35339B81796058800E7B1E5 /* backgroundq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundq.png; sourceTree = "<group>"; };
 		F35339BA1796095600E7B1E5 /* hey-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hey-button.png"; sourceTree = "<group>"; };
 		F35339BB1796095600E7B1E5 /* hello-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hello-button.png"; sourceTree = "<group>"; };
@@ -139,6 +139,7 @@
 		F35339991795F36E00E7B1E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F30CE9751798B242004253F5 /* ticket-button.png */,
 				F381B8AC17985BD7009A42AD /* fight.mp4 */,
 				F381B8A617985928009A42AD /* fight-button.png */,
 				F381B8A717985928009A42AD /* backgroundq1.png */,
@@ -155,7 +156,6 @@
 				F35339BD1796095600E7B1E5 /* going-button.png */,
 				F35339BE1796095700E7B1E5 /* gigi-button.png */,
 				F35339B81796058800E7B1E5 /* backgroundq.png */,
-				F35339B61795FF3800E7B1E5 /* ticket-button.png */,
 				F353399A1795F36E00E7B1E5 /* Jul18-Info.plist */,
 				F353399B1795F36E00E7B1E5 /* InfoPlist.strings */,
 				F353399E1795F36E00E7B1E5 /* main.m */,
@@ -223,7 +223,6 @@
 				F35339A51795F36F00E7B1E5 /* Default.png in Resources */,
 				F35339A71795F36F00E7B1E5 /* Default@2x.png in Resources */,
 				F35339A91795F36F00E7B1E5 /* Default-568h@2x.png in Resources */,
-				F35339B71795FF3800E7B1E5 /* ticket-button.png in Resources */,
 				F35339B91796058800E7B1E5 /* backgroundq.png in Resources */,
 				F35339BF1796095700E7B1E5 /* hey-button.png in Resources */,
 				F35339C01796095700E7B1E5 /* hello-button.png in Resources */,
@@ -240,6 +239,7 @@
 				F381B8A817985928009A42AD /* fight-button.png in Resources */,
 				F381B8A917985928009A42AD /* backgroundq1.png in Resources */,
 				F381B8AD17985BD7009A42AD /* fight.mp4 in Resources */,
+				F30CE9761798B242004253F5 /* ticket-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
